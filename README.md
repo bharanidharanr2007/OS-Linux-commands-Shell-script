@@ -489,6 +489,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="573" height="233" alt="Screenshot 2025-09-11 111127" src="https://github.com/user-attachments/assets/1e60b2ad-1aa8-4c12-b16b-d4e60119a50d" />
+
 
  
 cat << stop > herecheck.txt
@@ -501,6 +503,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="319" height="182" alt="Screenshot 2025-09-11 111418" src="https://github.com/user-attachments/assets/c6ea47e1-396e-47ff-bc96-24d91507b4c5" />
+
 
 
 cat < scriptest.sh 
@@ -539,23 +543,36 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="446" height="487" alt="Screenshot 2025-09-11 112138" src="https://github.com/user-attachments/assets/c7b4f75d-6a50-4b18-bacd-ca5874b1f414" />
+
 
  
 ls file1
 ## OUTPUT
+<img width="302" height="126" alt="Screenshot 2025-09-11 112250" src="https://github.com/user-attachments/assets/d1fec27b-4e39-4a81-9034-99a79b30c677" />
+
 
 echo $?
 ## OUTPUT 
+<img width="330" height="148" alt="Screenshot 2025-09-11 112308" src="https://github.com/user-attachments/assets/f2768172-167d-4063-90db-e6bf07b03011" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+<img width="330" height="148" alt="Screenshot 2025-09-11 112308" src="https://github.com/user-attachments/assets/e7679d13-780e-4b35-aadd-23860e218eff" />
+
  
 abcd
+## OUTPUT
+<img width="381" height="76" alt="Screenshot 2025-09-11 112416" src="https://github.com/user-attachments/assets/d3bc0953-4386-4055-905f-ad4179d7c159" />
+
  
 echo $?
  ## OUTPUT
+ <img width="328" height="72" alt="Screenshot 2025-09-11 112433" src="https://github.com/user-attachments/assets/d89dc17c-07d8-4ad8-84fa-156645838ba7" />
+
 
 
  
@@ -588,6 +605,8 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="358" height="249" alt="Screenshot 2025-09-11 112610" src="https://github.com/user-attachments/assets/1d364e3f-bc50-419d-9f37-4d3b8bded0a6" />
+
 
 
 
@@ -595,6 +614,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="459" height="412" alt="Screenshot 2025-09-11 112703" src="https://github.com/user-attachments/assets/47dc6693-db94-45f9-a444-68dbf28d6a3d" />
+
 
 
 # check file ownership
