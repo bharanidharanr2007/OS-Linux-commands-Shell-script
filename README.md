@@ -1036,6 +1036,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="408" height="479" alt="Screenshot 2025-09-11 171525" src="https://github.com/user-attachments/assets/f28778f0-047c-48d5-94dd-754a20732a22" />
+
 
 cat fornested1.sh 
 ```bash
@@ -1167,9 +1169,10 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
-
+ <img width="321" height="229" alt="Screenshot 2025-09-11 171911" src="https://github.com/user-attachments/assets/92298dff-3c6c-4eee-9e61-823c8ad4731b" />
 $ ./argshift.sh 1 2 3
- 
+
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
