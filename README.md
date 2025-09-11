@@ -489,7 +489,9 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-<img width="573" height="233" alt="Screenshot 2025-09-11 111127" src="https://github.com/user-attachments/assets/1e60b2ad-1aa8-4c12-b16b-d4e60119a50d" />
+<img width="573" height="233" alt="Screenshot 2025-09-11 111127" src="https://github.com/user-attachments/assets/f6d104f3-613b-4289-a75e-8525a177da30" />
+
+
 
 
  
@@ -503,7 +505,9 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-<img width="319" height="182" alt="Screenshot 2025-09-11 111418" src="https://github.com/user-attachments/assets/c6ea47e1-396e-47ff-bc96-24d91507b4c5" />
+
+
+<img width="319" height="182" alt="Screenshot 2025-09-11 111418" src="https://github.com/user-attachments/assets/720ff5e8-effa-4e6b-aa62-f9b3672d4e12" />
 
 
 
@@ -543,35 +547,42 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<img width="446" height="487" alt="Screenshot 2025-09-11 112138" src="https://github.com/user-attachments/assets/c7b4f75d-6a50-4b18-bacd-ca5874b1f414" />
+<img width="446" height="487" alt="Screenshot 2025-09-11 112138" src="https://github.com/user-attachments/assets/0ded6124-fc56-4569-a71d-bc6b0572dead" />
+
 
 
  
 ls file1
 ## OUTPUT
-<img width="302" height="126" alt="Screenshot 2025-09-11 112250" src="https://github.com/user-attachments/assets/d1fec27b-4e39-4a81-9034-99a79b30c677" />
+<img width="302" height="126" alt="Screenshot 2025-09-11 112250" src="https://github.com/user-attachments/assets/21e8b381-e314-4ddb-bc1d-30c5ca5764e7" />
+
 
 
 echo $?
 ## OUTPUT 
-<img width="330" height="148" alt="Screenshot 2025-09-11 112308" src="https://github.com/user-attachments/assets/f2768172-167d-4063-90db-e6bf07b03011" />
+<img width="330" height="148" alt="Screenshot 2025-09-11 112308" src="https://github.com/user-attachments/assets/51ad66b2-94dc-40d4-9cef-29c7480d61b8" />
+
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-<img width="330" height="148" alt="Screenshot 2025-09-11 112308" src="https://github.com/user-attachments/assets/e7679d13-780e-4b35-aadd-23860e218eff" />
+
+<img width="330" height="130" alt="Screenshot 2025-09-11 112354" src="https://github.com/user-attachments/assets/b9b4dc49-ebec-477a-9b6f-989c5c8857bd" />
 
  
 abcd
+
 ## OUTPUT
-<img width="381" height="76" alt="Screenshot 2025-09-11 112416" src="https://github.com/user-attachments/assets/d3bc0953-4386-4055-905f-ad4179d7c159" />
+
+<img width="381" height="76" alt="Screenshot 2025-09-11 112416" src="https://github.com/user-attachments/assets/080a3b36-c9bf-473c-a816-89dfc6d5103a" />
 
  
 echo $?
  ## OUTPUT
- <img width="328" height="72" alt="Screenshot 2025-09-11 112433" src="https://github.com/user-attachments/assets/d89dc17c-07d8-4ad8-84fa-156645838ba7" />
+
+<img width="328" height="72" alt="Screenshot 2025-09-11 112433" src="https://github.com/user-attachments/assets/e726a4b2-9ceb-483f-832f-457cccd60283" />
 
 
 
@@ -604,8 +615,9 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-<img width="358" height="249" alt="Screenshot 2025-09-11 112610" src="https://github.com/user-attachments/assets/1d364e3f-bc50-419d-9f37-4d3b8bded0a6" />
+## OUTPUT
+
+<img width="358" height="249" alt="Screenshot 2025-09-11 112610" src="https://github.com/user-attachments/assets/5b841e47-2d42-4133-8e5e-5c10963362ca" />
 
 
 
@@ -614,7 +626,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-<img width="459" height="412" alt="Screenshot 2025-09-11 112703" src="https://github.com/user-attachments/assets/47dc6693-db94-45f9-a444-68dbf28d6a3d" />
+
+<img width="459" height="412" alt="Screenshot 2025-09-11 112703" src="https://github.com/user-attachments/assets/2549b477-bb84-4476-9681-0fd30f73826d" />
 
 
 
@@ -643,6 +656,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="630" height="305" alt="Screenshot 2025-09-11 113044" src="https://github.com/user-attachments/assets/5aeb2f88-72f7-4111-876a-c4cbef62f316" />
+<img width="583" height="127" alt="Screenshot 2025-09-11 131848" src="https://github.com/user-attachments/assets/c39b814b-e22a-4433-b4ca-6ffd950f8297" />
 
 # check if with file location
 cat>ifnested.sh 
