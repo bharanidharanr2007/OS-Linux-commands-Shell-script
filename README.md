@@ -1021,6 +1021,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="405" height="462" alt="Screenshot 2025-09-11 145106" src="https://github.com/user-attachments/assets/3ed0ccfc-b06b-483e-b868-25d6eb651b8d" />
+
 
 cat forctype1.sh 
 ```bash
@@ -1052,6 +1054,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="446" height="755" alt="Screenshot 2025-09-11 145216" src="https://github.com/user-attachments/assets/29ecb3c8-93ac-47be-859c-1a9094c47218" />
 
  
 cat forbreak.sh 
@@ -1069,6 +1072,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="709" height="232" alt="Screenshot 2025-09-11 164849" src="https://github.com/user-attachments/assets/6442f8dc-252e-4939-a704-d9030ecc625d" />
 
 $ chmod 755 forbreak.sh
  
@@ -1094,7 +1098,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="726" height="278" alt="Screenshot 2025-09-11 164945" src="https://github.com/user-attachments/assets/c83f3506-a379-412f-8bb4-e748f6612388" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1109,6 +1114,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+<img width="454" height="390" alt="Screenshot 2025-09-11 165156" src="https://github.com/user-attachments/assets/83bd2660-f050-4225-b7a5-b9c0068b2cd0" />
 
  cat exread1.sh
 ```bash
@@ -1122,6 +1128,7 @@ $ chmod 755 exread1.sh
 ## OUTPUT
 
 
+<img width="454" height="390" alt="Screenshot 2025-09-11 165156" src="https://github.com/user-attachments/assets/0a67ff76-350e-48e3-8391-7ee1ff79b854" />
 
 $ ./exread1.sh 
  
@@ -1141,6 +1148,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+<img width="361" height="127" alt="Screenshot 2025-09-11 165542" src="https://github.com/user-attachments/assets/4abe3b57-d55f-4bca-b942-e96d92b92c4f" />
+
  ./funcex.sh 
 
  
@@ -1158,6 +1167,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1175,6 +1185,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="358" height="189" alt="Screenshot 2025-09-11 165824" src="https://github.com/user-attachments/assets/60f0fa2d-e156-440c-9748-1d2b729f7cb9" />
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1188,6 +1200,8 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="349" height="726" alt="Screenshot 2025-09-11 165930" src="https://github.com/user-attachments/assets/3e84d3db-c5bb-4712-a18a-761eb325dfe8" />
+
  ./argshift.sh 1 2 3
  
  
@@ -1220,6 +1234,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+<img width="424" height="422" alt="Screenshot 2025-09-11 170123" src="https://github.com/user-attachments/assets/0b7108be-3d3d-457d-9cb8-cefa9adf7298" />
+
  
 cat > palindrome.sh
 ```bash
@@ -1247,6 +1263,8 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="505" height="790" alt="Screenshot 2025-09-11 170338" src="https://github.com/user-attachments/assets/18c746ae-251f-4bbb-990f-f0e87bba38ed" />
+
 
 
 # RESULT:
