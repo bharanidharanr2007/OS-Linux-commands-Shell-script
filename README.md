@@ -1006,8 +1006,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-![Uploading Screenshot 2025-09-11 142708.png…]()
 
+<img width="364" height="335" alt="Screenshot 2025-09-11 142708" src="https://github.com/user-attachments/assets/f30ff641-9415-4c98-b700-d2fa08c3d558" />
 
 cat forctype.sh 
 ```bash
